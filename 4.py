@@ -1,7 +1,7 @@
-Sure, I can add the PixieWPS program to the Reaver GUI.
+## Sure, I can add the PixieWPS program to the Reaver GUI.
 
-Here's the updated code:
-```python
+## Here's the updated code:
+## ```python
 import tkinter as tk
 import subprocess
 import re
@@ -93,9 +93,9 @@ output_text = tk.Text(root, height=10, width=50)
 output_text.grid(row=8, column=0, columnspan=2)
 
 root.mainloop()
-```
-In this updated version of the GUI, I added a "Run PixieWPS" button that runs the PixieWPS program to recover the WPS pin. The `run_pixiewps()` function checks if the PixieWPS program is installed in the home directory, and if so, it runs the PixieWPS script using the entered interface. The output of the PixieWPS script is displayed in a text box.
+## ```
+## In this updated version of the GUI, I added a "Run PixieWPS" button that runs the PixieWPS program to recover the WPS pin. The `run_pixiewps()` function checks if the PixieWPS program is installed in the home directory, and if so, it runs the PixieWPS script using the entered interface. The output of the PixieWPS script is displayed in a text box.
 
-Additionally, I added an "Interface" button to refresh the list of interfaces and display them in the interface input field.
+## Additionally, I added an "Interface" button to refresh the list of interfaces and display them in the interface input field.
 
-You can further customize this GUI as desired and add additional functionality as needed.
+## You can further customize this GUI as desired and add additional functionality as needed.
